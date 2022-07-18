@@ -19,11 +19,14 @@ function App() {
   document.title = "ProStandings"
   const Leagues = ['LCS', 'LCK','LPL','LEC','CBLOL','PCS','TCL','LLA','LJL','LCL','VCS','LCO']
   const matches = []
+  var today = new Date();
+  console.log('today',today)
   for(let i=0; i<Leagues.length; i++){
     for(let j=0; j<data[Leagues[i]]['matches'].length; j++){
-      console.log(data[Leagues[i]]['matches'][j][2])
-      if(new Date(data[Leagues[i]]['matches'][j][2] >= new Date())){
+      var date = new Date(data[Leagues[i]]['matches'][j][0][2])
+      if(date >= today){
         matches.push(data[Leagues[i]]['matches'][j])}
+        console.log('thisdate',date, data[Leagues[i]]['matches'][j][0][2])
     }
   }
   //var today= new Date();

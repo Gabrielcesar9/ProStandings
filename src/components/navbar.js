@@ -40,7 +40,7 @@ const items = [['LCS',lcs,lcs_],  ['LCK',lck,lck_],['LPL',lpl,lpl_], ['LEC',lec,
     <div className='subcon'>
       <div>
       <img className='' onMouseOver={e => (e.currentTarget.src = home_)} onMouseOut={e => (e.currentTarget.src = home)} src={home}/>
-      </div><span className='name'>Home</span></div>
+      </div><span className='name'></span></div>
     </a>
     {items.map((item, index)=>{if(items[index][0]!=props.selected){
       return(
