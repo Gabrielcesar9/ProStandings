@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&family=Kanit&family=Oswald:wght@400;600&family=Space+Mono&display=swap');
+
+table{
+    background-color: #212529;;
+}
+td{
+    padding: 2%;
+    width: 200px;
+    text-align: center;
+    font-size: larger;
+    color:white;
+    font-family: 'Kanit', sans-serif;
+}
+th{
+    color:white;
+    padding: 2%;
+    text-align: center;
+}
+tr{
+    text-align: center;
+}
+
+.rank{
+    color:black;
+    font-size: 'xx-large';
+    width: 70px;
+}
+
+img{
+    margin-right: 5%;
+}
+.correction{
+    letter-spacing: 5px;
+    font-size: 'xx-large';
+}
+.team-name{
+    width: 300px;
+}

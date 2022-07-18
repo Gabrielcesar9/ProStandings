@@ -1,0 +1,19 @@
+.container{
+    min-width: 100%;
+}
+div.next{
+    display:inline-flexbox;
+    padding: 1%;
+    padding-left: 2.0%;
+    padding-right: 2%;
+    margin-top: 2%;
+}
+td.next{
+    border:solid white 2px;
+}
+
+.subcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
