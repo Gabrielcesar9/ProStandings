@@ -171,7 +171,7 @@ function Home(props){
                     }
     return (
     <>
-    <div style={{color:'white', margin:'5%', paddingLeft:'4%', textAlign:'center', fontSize:'50px', fontFamily:"'Space Mono', monospace;"}}>Welcome to ProStandings <img style={{width:'4%', marginBottom:'2%'}} src={plot}></img></div>
+    <div style={{color:'white', margin:'5%', paddingLeft:'4%', textAlign:'center', fontSize:'50px', fontFamily:"'Space Mono', monospace;"}}>Welcome to ProStandings <img style={{width:'70px', marginBottom:'2%'}} src={plot}></img></div>
     <Navbar/>
     <div style={{border:'dotted white 5px', color:"white",margin:'auto', fontSize:'xx-large', marginTop:'5%', padding:'4%', width:'90%'}}>
         <h1 style={{color:'#E96753'}}>The Glicko-2 rating system</h1>
