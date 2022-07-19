@@ -1,0 +1,72 @@
+
+    <tr>
+      <td className='rank' scope="row" style={{backgroundColor:props.ratings['teams'][1].color}}>2</td>
+      <td className='team-name'><img src={icons[props.ratings['teams'][1].flag]}></img>{props.ratings['teams'][1].name}</td>
+      <td>{props.ratings['teams'][1].rating}</td>
+      <td className='correction' style={{color:props.ratings['teams'][1].cc}}>{props.ratings['teams'][1].correction}</td>
+      <td>&#177;{props.ratings['teams'][1].deviation}</td>
+    </tr>
+
+    <tr>
+      <td className='rank' scope="row" style={{backgroundColor:props.ratings['teams'][2].color}}>3</td>
+      <td className='team-name'><img src={icons[props.ratings['teams'][2].flag]}></img>{props.ratings['teams'][2].name}</td>
+      <td>{props.ratings['teams'][2].rating}</td>
+      <td className='correction' style={{color:props.ratings['teams'][2].cc}}>{props.ratings['teams'][2].correction}</td>
+      <td>&#177;{props.ratings['teams'][2].deviation}</td>
+    </tr>
+
+    <tr>
+      <td className='rank' scope="row" style={{backgroundColor:props.ratings['teams'][3].color}}>4</td>
+      <td className='team-name'><img src={icons[props.ratings['teams'][3].flag]}></img>{props.ratings['teams'][3].name}</td>
+      <td>{props.ratings['teams'][3].rating}</td>
+      <td className='correction' style={{color:props.ratings['teams'][3].cc}}>{props.ratings['teams'][3].correction}</td>
+      <td>&#177;{props.ratings['teams'][3].deviation}</td>
+    </tr>
+
+    <tr>
+      <td className='rank' scope="row" style={{backgroundColor:props.ratings['teams'][4].color}}>5</td>
+      <td className='team-name'><img src={icons[props.ratings['teams'][4].flag]}></img>{props.ratings['teams'][4].name}</td>
+      <td>{props.ratings['teams'][4].rating}</td>
+      <td className='correction' style={{color:props.ratings['teams'][4].cc}}>{props.ratings['teams'][4].correction}</td>
+      <td>&#177;{props.ratings['teams'][4].deviation}</td>
+    </tr>
+
+    <tr>
+      <td className='rank' scope="row" style={{backgroundColor:props.ratings['teams'][5].color}}>6</td>
+      <td className='team-name'><img src={icons[props.ratings['teams'][5].flag]}></img>{props.ratings['teams'][5].name}</td>
+      <td>{props.ratings['teams'][5].rating}</td>
+      <td className='correction' style={{color:props.ratings['teams'][5].cc}}>{props.ratings['teams'][5].correction}</td>
+      <td>&#177;{props.ratings['teams'][5].deviation}</td>
+    </tr>
+
+    <tr>
+      <td className='rank' scope="row" style={{backgroundColor:props.ratings['teams'][6].color}}>7</td>
+      <td className='team-name'><img src={icons[props.ratings['teams'][6].flag]}></img>{props.ratings['teams'][6].name}</td>
+      <td>{props.ratings['teams'][6].rating}</td>
+      <td className='correction' style={{color:props.ratings['teams'][6].cc}}>{props.ratings['teams'][6].correction}</td>
+      <td>&#177;{props.ratings['teams'][6].deviation}</td>
+    </tr>
+
+    <tr>
+      <td className='rank' scope="row" style={{backgroundColor:props.ratings['teams'][7].color}}>8</td>
+      <td className='team-name'><img src={icons[props.ratings['teams'][7].flag]}></img>{props.ratings['teams'][7].name}</td>
+      <td>{props.ratings['teams'][7].rating}</td>
+      <td className='correction' style={{color:props.ratings['teams'][7].cc}}>{props.ratings['teams'][7].correction}</td>
+      <td>&#177;{props.ratings['teams'][7].deviation}</td>
+    </tr>
+
+    <tr>
+      <td className='rank' scope="row" style={{backgroundColor:props.ratings['teams'][8].color}}>9</td>
+      <td className='team-name'><img src={icons[props.ratings['teams'][8].flag]}></img>{props.ratings['teams'][8].name}</td>
+      <td>{props.ratings['teams'][8].rating}</td>
+      <td className='correction' style={{color:props.ratings['teams'][8].cc}}>{props.ratings['teams'][8].correction}</td>
+      <td>&#177;{props.ratings['teams'][8].deviation}</td>
+    </tr>
+
+    <tr>
+      <td className='rank' scope="row" style={{backgroundColor:props.ratings['teams'][9].color}}>10</td>
+      <td className='team-name'><img src={icons[props.ratings['teams'][9].flag]}></img>{props.ratings['teams'][9].name}</td>
+      <td>{props.ratings['teams'][9].rating}</td>
+      <td className='correction' style={{color:props.ratings['teams'][9].cc}}>{props.ratings['teams'][9].correction}</td>
+      <td>&#177;{props.ratings['teams'][9].deviation}</td>
+    </tr>

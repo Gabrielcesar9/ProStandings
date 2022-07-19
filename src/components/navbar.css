@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&family=Kanit&family=Oswald:wght@400;600&family=Space+Mono&display=swap');
+.name{
+    display:block;
+    color: aliceblue;
+    font-family: 'Kanit', sans-serif
+}
+
+.subcon{
+}
+.tab{
+    border:solid transparent;
+    border-radius: 0.6rem;
+    margin:0
+}
+.tab:hover{
+    border: solid white 3px;
+}
+.name{
+    text-align: center;
+}
+img{
+    size-adjust: 10%;
+}
+.underline{
+    display: block;
+    margin: auto;
+    width:90%;
+    border-bottom: solid white 2px;
+}
