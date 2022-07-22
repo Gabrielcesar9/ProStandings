@@ -34,18 +34,18 @@ const items = [['LCS',lcs,lcs_],  ['LCK',lck,lck_],['LPL',lpl,lpl_], ['LEC',lec,
   <div className='navcontainer'>
     <span className='underline'></span>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-  <div class="container-fluid">
+  <div class="container-fluid" style={{height:'100px'}}>
     <div class="navbar-brand"></div>
     <a class="navbar-brand tab" href={`/`}>
     <div className='subcon'>
-      <div>
-      <img className='' onMouseOver={e => (e.currentTarget.src = home_)} onMouseOut={e => (e.currentTarget.src = home)} src={home}/>
+      <div onMouseOver={e => (e.currentTarget.querySelector('img').src = home_)} onMouseOut={e => (e.currentTarget.querySelector('img').src = home)}>
+      <img className='' src={home}/><span className='name'>Home</span>
       </div><span className='name'></span></div>
     </a>
     {items.map((item, index)=>{if(items[index][0]!=props.selected){
       return(
-<a class="navbar-brand tab" href={`/${items[index][0]}`}><div className='subcon'><div>
-  <img className='' onMouseOver={e => (e.currentTarget.src = items[index][2])} onMouseOut={e => (e.currentTarget.src = items[index][1])} src={items[index][1]}/>
+<a class="navbar-brand tab" href={`/${items[index][0]}`}><div className='subcon'><div onMouseOver={e => (e.currentTarget.querySelector('img').src = items[index][2])} onMouseOut={e => (e.currentTarget.querySelector('img').src = items[index][1])}>
+  <img src={items[index][1]}/>
   <span className='name'>{items[index][0]}</span></div></div></a>
       )} else{return(<a class="navbar-brand tab" href={`/${items[index][0]}`}><div className='subcon'><div><img onMouseOver={e => (e.currentTarget.src = items[index][2])} onMouseOut={e => (e.currentTarget.src = items[index][2])} src={items[index][2]}/><span className='name'>{items[index][0]}</span></div></div></a>
       )}
